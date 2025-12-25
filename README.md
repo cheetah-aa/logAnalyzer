@@ -6,13 +6,11 @@
 
 ## Features
 
-* **Dual Interface:** Run it directly in your terminal or via a browser-based dashboard.
-* **Intelligent Analysis:** Filters out "noise" (successful logins) to focus exclusively on `Failed password` and `Invalid user` events.
+* **Log Analysis:** Filters out "noise" (successful logins) to focus exclusively on `Failed password` and `Invalid user` events.
 * **Modern Web Dashboard:**
     * **Drag-and-Drop:** Instant log analysis by dropping `.log` files.
-    * **High-Level Stats:** At-a-glance view of total flagged IPs and the most frequent attacker.
+    * **High-Level Stats:** At-a-glance view of total flagged IPs and the most suspicious IP.
     * **User Mapping:** Identifies which usernames (e.g., `root`, `admin`, `postgres`) are being targeted.
-    * **Monospace Typography:** Industry-standard IP and log rendering for high readability.
 
 ---
 
